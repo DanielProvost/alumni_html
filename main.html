@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+
+    <title>GretaProject</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="main.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+
+<body>
+<main>
+    <header>
+        <div class="first">
+            <div class ='avatar'>
+                <p>Bonjour Daniel Provost</p>
+                <img src="images/image1.png" alt="avatar" class="img1">
+            </div>
+        </div>
+        <div class="second">
+            <img src="images/image2.png" alt="logo_greta" id="img2">
+        </div>
+        <div class="third">
+            <ul>
+                <li><a href="#">Accueil</a></li>
+                <li><a href="#"  id="special">Compte</a></li>
+                <li><a href ="#">Déconnexion</a></li>
+            </ul>
+        </div>
+    </header>
+    <section>
+        <div class="photo_accueil">
+            <h1 >Bienvenue sur l'annuaire des anciens élèves du Greta</h1>
+        </div>
+
+        <div class="formulaire_recherche">
+            <form>
+                <label>
+                    <select name="choice">
+                        <option value="first">Développement Web et Web mobile</option>
+                        <option value="second">Designer Web</option>
+                        <option value="third">BTS métiers du numérique</option>
+                    </select>
+                </label>
+                <label>
+                    <select name="année">
+                        <option value="2019">2019</option>
+                        <option value="2020" >2020</option>
+                        <option value="2021">2021</option>
+                    </select>
+
+                    <input class="champ" type="submit" value="GO">
+                </label>
+            </form>
+            <small>Vous pouvez effectuez votre recherche par formation et année de formation.</small>
+
+        </div>
+
+
+        <div class="tableau">
+            <table>
+                <caption>Résultat de la recherche</caption>
+                <tr>
+                    <th class="color">Nom</th>
+                    <th class="color">Prénom</th>
+                    <th class="color">Formation suivie</th>
+                    <th class="color">Avatar</th>
+                </tr>
+                <tr>
+                    <th>Provost</th>
+                    <th>Daniel</th>
+                    <th>Developpement Web</th>
+                    <th><img src="images/image1.png" alt="avatar" class="img1"></th>
+                </tr>
+                <tr>
+                    <th>Monsieur</th>
+                    <th>Antoine</th>
+                    <th>Developpement Web</th>
+                    <th>N'a pas d'avatar</th>
+                </tr>
+
+            </table>
+        </div>
+        <div style="position: relative">
+            <p class="anim">GRETA</p>
+        </div>
+
+    </section>
+    <footer>
+
+        <p>Mentions légales - A propos</p>
+    </footer>
+
+
+</main>
+
+
+
+
+</body>
+</html>
